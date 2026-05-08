@@ -1,35 +1,41 @@
-Project Overview
+CUSTOMER CHURN EDA REPORT
+> Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on a customer churn dataset to identify patterns and factors influencing customer retention and churn behavior.
 
 The analysis focuses on demographic, financial, and service-related attributes to uncover insights that can help improve customer retention strategies and support predictive modeling.
 
-Dataset Description
+> Dataset Description
 
 The dataset contains customer-related information categorized into:
 
-Demographic Features
+> Demographic Features
 Age
 Gender
 Region
-Service Features
+
+> Service Features
 Plan Type
 Service Usage
 Resolution Status
-Financial Features
+
+> Financial Features
 Amount Spent
 Subscription Tenure
-Target Variable
+
+> Target Variable
 ChurnStatus
 0 → Retained Customer
 1 → Churned Customer
-Objectives
-Understand customer churn distribution
-Identify factors contributing to churn
-Analyze customer behavior and spending patterns
-Discover relationships between tenure, spending, and churn
-Generate insights useful for machine learning models
-Key Insights
+
+> Objectives
+- Understand customer churn distribution
+- Identify factors contributing to churn
+- Analyze customer behavior and spending patterns
+- Discover relationships between tenure, spending, and churn
+- Generate insights useful for machine learning models
+  
+> Key Insights
 1. Churn Distribution
 The dataset shows a class imbalance.
 Churned customers represent a smaller portion of the dataset.
@@ -50,14 +56,16 @@ Resolution status shows moderate influence on churn.
 5. Resolution Status vs Churn
 Customers with unresolved or pending service issues are more likely to churn.
 Improving customer support and issue resolution can reduce churn rates.
-Technologies Used
+
+> Technologies Used
 Python
 Pandas
 NumPy
 Matplotlib
 Seaborn
 Jupyter Notebook
-Suggested Workflow
+
+> Suggested Workflow
 Data Loading
 Data Cleaning
 Exploratory Data Analysis
@@ -65,13 +73,15 @@ Data Visualization
 Correlation Analysis
 Feature Understanding
 Insights Extraction
-Example Visualizations
+
+> Example Visualizations
 Churn Distribution Plot
 Boxplots for Spending vs Churn
 Tenure Distribution
 Correlation Heatmap
 Resolution Status Analysis
-Conclusion
+
+> Conclusion
 
 The EDA highlights that:
 
